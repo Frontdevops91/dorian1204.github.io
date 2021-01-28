@@ -20,7 +20,7 @@ h3{
     font-size: 1.2em;
     border: solid 2px;
     border-radius: 2em;
-    border-color: #c9c9c9;
+    border-color:rgb(240,225,48);
     background-color: rgb(211, 211, 211);
 }
 main h2{
@@ -29,7 +29,7 @@ main h2{
     text-align: center;
 }
 footer{
-    background-color:  rgb(211, 211, 211);
+    background-color:  rgb(64,224,208);
     justify-content: center;
     border-radius: 12px;
     padding-top: 0.5em;
@@ -75,7 +75,7 @@ nav a{
 }
 nav a:hover{
     font-size: 1.1em;
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(255, 254, 254);
 }
 nav ul li{
     flex: 1 1 100%;
@@ -100,8 +100,8 @@ p{
 }
 .color2{
     font-family:Spectral;
-    background-color: rgb(26, 25, 25);
-    color:rgb(190, 190, 190);
+    background-color: rgb(240,225,48);
+    color:rgb(0, 0, 0);
     max-width: 60%;
     margin: 0 auto;
     padding: 1em;
@@ -109,7 +109,7 @@ p{
 }
 .color3{
     font-family:Spectral;
-    background-color:rgb(190, 190, 190);
+    background-color:rgb(64,224,208);
     color:black;
     max-width: 60%;
     margin: 0 auto;
@@ -118,7 +118,7 @@ p{
 }
 .color4{
     font-family:Spectral;
-    background-color:rgb(190, 190, 190);
+    background-color:rgb(255,255,255);
     color:black;
     max-width: 60%;
     margin: 0 auto;
