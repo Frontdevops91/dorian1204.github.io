@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&display=swap');
 body {
     font-size: 16px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Sans', sans-serif;
     line-height: 1.5;
     margin: 1.25rem auto;
     max-width: 850px;
