@@ -12,7 +12,7 @@ body {
 
 #icon {
     height: 150px;
-    padding: 15px;
+    padding: 13px;
     float: left;
     padding-left: 200px;
 }
@@ -23,14 +23,14 @@ header {
     text-align: center;
 }
 h1 {
-    font-size: 32px;
-    padding-top: 50px;
+    font-size: 30px;
+    padding-top: 30px;
     padding-left: 0px;
     margin-bottom: 0px;
 }
 
 #moto {
-    font-size: 16px;
+    font-size: 12px;
 }
 
 footer {
@@ -43,7 +43,7 @@ footer {
 /* nav menu */
 
 .navigation {
-    background-color: #2E387B;
+    background-color: #000000;
     clear: left;
     list-style: none;
     display: flex;
@@ -57,16 +57,16 @@ li {
 
 li a {
     display: block;
-	padding: 15px;
+	padding: 31px;
 	text-align: left;
 	text-decoration: none;
-	color:#EAF0F9;
+	color:#e2e1e1;
 	/* font-weight: 700; */
 }
 
 li a:hover {
     color: black;
-    background-color: #EAF0F9;
+    background-color: #a6f3c3;
 }
 
 li:first-child {
@@ -83,14 +83,14 @@ li:first-child {
 
 h2 {
     text-align: center;
-    padding: 15px;
-    font-size: 32px;
+    padding: 12px;
+    font-size: 30px;
 }
 
 .contentbox {
-    border: 1px dashed #577A3C;
+    border: 1px dashed #f8ec3f;
     padding: 15px;
-    background-color: #EAF0F9;
+    background-color: #d4d6da;
     margin: 10px auto;
     font-style: italic;
     
@@ -101,11 +101,11 @@ h2 {
 /* footer */
 
 footer {
-    background-color: #2E387B;
-    color: #EAF0F9;
-    padding: 10px;
+    background-color: #727272;
+    color: #cad0da;
+    padding: 12px;
     text-align: center;
-    line-height: .5;
+    line-height: .7;
 }
 
 /* #footwords {
@@ -124,7 +124,7 @@ h1 {
 }
 
 #moto {
-    font-size: 18px;
+    font-size: 12px;
 }
 
 #icon {
