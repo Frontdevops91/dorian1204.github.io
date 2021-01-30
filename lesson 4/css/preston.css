@@ -88,7 +88,7 @@ h2 {
 
 .contentbox {
     border: 1px dashed #f8ec3f;
-    padding: 15px;
+    padding: 30px;
     background-color: #d4d6da;
     margin: 10px auto;
     font-style: italic;
@@ -102,9 +102,9 @@ h2 {
 footer {
     background-color: #727272;
     color: #cad0da;
-    padding: 12px;
+    padding: 20px;
     text-align: center;
-    line-height: .7;
+    line-height: 1.5;
 }
 
 /* #footwords {
