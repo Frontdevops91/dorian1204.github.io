@@ -37,8 +37,6 @@ footer {
     justify-content: center;
     text-align: center;
 }
-
-
 /* nav menu */
 
 .navigation {
@@ -101,7 +99,7 @@ h2 {
 
 footer {
     background-color: #727272;
-    color: #cad0da;
+    color: #ffffff;
     padding: 50px;
     text-align: center;
     line-height: 1.5;
