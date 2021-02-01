@@ -29,9 +29,6 @@ let month = ["January", "February", "March", "April", "May", "June", "July", "Au
 document.getElementById("date").innerHTML = day[b.getDay()] + ", " + 
 b.getDate() + " " + month[b.getMonth()] + " " + b.getFullYear();
 
-function toggleMenu(){
-    document.getElementById("nav-menu").classList.toggle("hide");
-  }
 
 // var options = { month: "numeric", day: "numeric", year: "numeric", hour: "numeric", minute: "numeric"};
 // var d = document.lastModified().toLocaleDateString("en-US", options);
