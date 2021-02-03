@@ -63,7 +63,7 @@ nav ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    display: flex;
+    display: block;
 }
 nav a{
     display: block;
@@ -75,10 +75,10 @@ nav a{
 }
 nav a:hover{
     font-size: 1.1em;
-    background-color: rgb(255, 254, 254);
+    background-color:rgb(64,224,208);
 }
 nav ul li{
-    flex: 1 1 100%;
+   display: block;
 }
 p{
     font-family: 'Spectral';
