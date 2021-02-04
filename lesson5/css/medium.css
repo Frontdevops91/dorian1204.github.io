@@ -3,7 +3,7 @@
       display: block;
     }
     .headings {
-      display: flex;
+      display: block;
     }
     nav {
       max-width: 100%;
@@ -26,7 +26,7 @@
     }
   
     .navigation {
-      display: flex;
+      display: block;
     }
     .navigation li {
       display: block; /* change state in small view */
