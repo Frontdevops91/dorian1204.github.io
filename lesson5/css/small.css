@@ -15,7 +15,7 @@ ul{
     border: 1rem;
 }
   li{
-    padding: 15px;
+    padding: 13px;
     display: none;
   }
   li:first-child{
@@ -66,7 +66,7 @@ ul{
   }
   
   h1, h2, h3, h4{
-  font-family: Spectral, bold;
+  font-family: Spectral;
   text-align: center;
   }
 
@@ -108,7 +108,7 @@ ul{
 
 
   footer a{
-    color: black;
+    color: #ffffff;
   }
  
   .area{
@@ -227,7 +227,7 @@ ul{
     padding: 0.46em;
     height: 3em;
     background-color: rgb(64,224,208);
-    font-family: 'Serif';
+    font-family: 'Spectral';
     text-align: center;
     justify-content: space-around;
     font-size: large;
