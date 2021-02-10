@@ -1,7 +1,6 @@
   
 /*mobile */
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto&display=swap') ;
-
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200&display=swap');
 ul{
   font-size: large;
   list-style: none;
@@ -67,7 +66,7 @@ ul{
   }
   
   h1, h2, h3, h4{
-  font-family: Cinzel, bold;
+  font-family: Spectral, bold;
   text-align: center;
   }
 
