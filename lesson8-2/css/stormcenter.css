@@ -1,7 +1,7 @@
 /*mobile */
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto&display=swap') ;
 .head-bar {
-    background-color: rgb(135, 235, 180);
+    background-color: rgb(64,224,208);
 }
 nav button {
     margin: .3rem 2.2%;
@@ -97,7 +97,7 @@ a {
 .footer-top {
     display: flex;
     flex-direction: column-reverse;
-    background-color: rgb(100, 237, 118);
+    background-color: rgb(64,224,208);
     border-top: 2px solid rgba(0, 0, 0, 0.226);
 }
 .footer-info {
