@@ -80,12 +80,25 @@
                 </label>
                 </div>
                 <div>
-                    
-                   
-                    <label class="stormseverity"> Storm Severity:<input type="range" name="severity" min="1" max="10" 
-                        step="1">
-                    </label>
+                        <label class="stormseverity">
+                            Storm Severity : <span id="ratingvalue">5</span>
+                            <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
+                                oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                <datalist id="tickmarks">
+                    <option value="0"></option>
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5"></option>
+                    <option value="6"></option>
+                    <option value="7"></option>
+                    <option value="8"></option>
+                    <option value="9"></option>
+                    <option value="10"></option>
+                </datalist>
                 </div>
+            </label>
     
                 
                 <div>
@@ -124,8 +137,7 @@
                 </div>
     
                 <div>
-                    <input type="submit" value="Submit" class="submitbutton">
-                    <input type="reset" value="Reset" class="resetbutton">
+                    <input type="submit" value="Submit Storm Informations" class="submitbutton">
                 </div>
             </form>
         
@@ -145,7 +157,7 @@
         </div>
     </footer>
     
-    <script src="js/menu.js"></script>
+    <script src="js/main.js"></script>
         <script src="js/lazy.js"></script>
 </body>
 
