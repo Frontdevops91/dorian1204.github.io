@@ -32,6 +32,9 @@ nav ul li.active a {
     background-color:  rgba(64, 224, 208, 0.26);
     color: black;
 }
+.logo {
+    width: 30%;
+}
 .head-bar {
     display: flex;
     justify-content: space-evenly;
@@ -159,7 +162,7 @@ form {
 /* Medium Screens */
 @media only screen and (min-width: 664px) {
     nav button {
-        display: none;
+        display: flex;
     }
     .logo {
         width: 10%;
@@ -217,7 +220,7 @@ form {
         font-size: 1.1em;
     }
     .logo {
-        width: 10px;
+        width: 5px;
     }  
         footer {
         max-width: 100%;
@@ -240,6 +243,6 @@ form {
         font-size: 1em;   
     }
     .logo {
-        width: 10%;
+        width: 5%;
     }
 }
