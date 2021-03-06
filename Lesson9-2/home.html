@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Gallery For The Weather </title>
+    <meta name="description" content="preston weather">
+<link href ="css/normalize.css" rel = "stylesheet">
+<link href="css/home.css" rel= "stylesheet">
+<link rel="icon" href="/lesson6/images/weatherlogo.png" type="image/x-icon">
+</head>
+<body onload="dateCalc()">
+    <header>
+        <div class="head-bar">
+            <img class="logo" src="/lesson6/images/weatherlogo.png" alt="weather logo">
+            <div>
+                <h1 class="top-heading">The Weether Today</h1>
+                <div class="motto">Have a look and do it!</div>
+            </div>
+        </div>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="cards">
+        </div> 
+    </main>
+
+<footer>
+    <div class="footer-bar">
+        <div class="footer-info">
+            <p>&copy; Dorian | Idaho Weather</p>                          
+            <a href="#">Terms of Use</a>               
+        </div>
+        <div id="date"></div>
+    </div>
+</footer> 
+    <script src="js/main.js"></script>
+    <script src="js/tmenu.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/home.js"></script>
+  </body>
+  </html>
+
+    
