@@ -80,11 +80,10 @@ h6 {
 }
 .top-heading {
     margin-bottom: 0;
-    color: rgb(0, 0, 0)ck;
+    color: rgb(0, 0, 0);
     font-size: 1.6em;
 }
 h2 {
-    text-align: middle;
     font-size: 1.5em;
     margin-top: 0;
     margin-left: 3em;
@@ -103,7 +102,6 @@ a, figcaption {
     font-family: "Spectral";
     color: rgb(0, 0, 0);
     padding-top: 1em;
-    margin: middle;
 }
 img[data-src] {
     filter: blur(0em);
