@@ -1,11 +1,11 @@
-
+/*jshint esversion: 6 */
 function dateCalc() {
-    let todayDate = new Date()
+    let todayDate = new Date();
 
-    let todayWeekday = todayDate.getDay()
-    let todayDay = todayDate.getDate()
-    let todayMonth = todayDate.getMonth()
-    let todayYear = todayDate.getFullYear()
+    let todayWeekday = todayDate.getDay();
+    let todayDay = todayDate.getDate();
+    let todayMonth = todayDate.getMonth();
+    let todayYear = todayDate.getFullYear();
 
     let weekday = new Array(7);
     weekday[1]="Monday";
@@ -30,7 +30,7 @@ function dateCalc() {
     month[10] = "November";
     month[11] = "December";
 
-    let fullDate = `${weekday[todayWeekday]}, ${todayDay} ${month[todayMonth]} ${todayYear}`
+    let fullDate = `${weekday[todayWeekday]}, ${todayDay} ${month[todayMonth]} ${todayYear}`;
 
     document.getElementById('date').textContent = fullDate;
     console.log(fullDate)
