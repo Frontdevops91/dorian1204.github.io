@@ -33,7 +33,7 @@
   
     
     .label {
-      text-align: left;
+      text-align: flex;
       /*font-size: .8rem;
       line-height: 80%;*/
     }
@@ -142,7 +142,7 @@
       /* Home Page */
       .cards{
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex;
     }
     
     .card{
@@ -154,16 +154,16 @@
     }
     
     .card img{
-        max-width: 52%;
+        max-width: 50%;
     }
-    .card .textDiv h2{
-        text-align: left;
-    }
-    
+    .card .textDiv h2, h1{
+        text-align: flex;
+  }
+  
     .textDiv{
-        text-align: left;
+        text-align: flex;
         max-width: 80%;
-        padding: 22px;
+        padding: 0px;
         margin: 0 auto;
     }
     
@@ -173,28 +173,28 @@
     }
     
     .card:nth-child(odd) .textDiv{
-        text-align: left;
-        padding-left: 10px
+        text-align: flex;
+        padding-left: 0px
         
     }
     
     .homemotto{
         padding-bottom: 10px;
-        text-align: left;
+        text-align: flex;
     }
   
       .contact {
         background: #f0f0f0;
         padding: 10px;
         display: grid;
-        grid-template-areas: "left right";
+        grid-template-areas: "flex";
         justify-items: center;
       }
       .contactinfo {
-        grid-area: left;
+        grid-area: flex;
       }
       .map {
-        grid-area: right;
+        grid-area: flex;
       }
       }
   
@@ -254,28 +254,30 @@
     }
   
     .card:nth-child(odd) .textDiv{
-        text-align: center;
-    }
+        text-align: flex;
+        margin-top: 5%;
+      }
   
     .card .textDiv, .card .textDiv h2{
-        text-align: center;
+        text-align: flex;
+        margin-top: 5%;
     }
   
   
       #class {
         max-width: 35%;
-        float: right;
+        float: flex;
       }
       .fiveday {
         display: table;
-        margin: 0 auto;
+       border-top: 100% auto;
       }
       table {
         border-collapse: collapse;
       }
       table, th, td {
         border: solid #302e2e 2px;
-        text-align: center;
+        text-align: flex;
         vertical-align: middle;
       }
       .gallerygrid {

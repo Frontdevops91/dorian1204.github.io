@@ -211,7 +211,7 @@ figcaption{
     #article img {
         margin-left: 25px;
         height: 100%;
-        float: right;
+        float: flex;
 
     }
     #forecast-placeholder {
@@ -227,7 +227,7 @@ figcaption{
     }
 }
 /* Large Screens */
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 1920px) {
     #primaryNav a {
         padding: 9px 4px;
     }
