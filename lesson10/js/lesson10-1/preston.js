@@ -1,4 +1,4 @@
-const apiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=5607916&APPID=22c67a292f3d2aebe9c48c2ee625f611"
+const apiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=53151408e7026616f38e9e7067d59fa2"
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
@@ -19,7 +19,7 @@ fetch(apiURL)
 
 
 
-const apiFive = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=5607916&APPID=22c67a292f3d2aebe9c48c2ee625f611"
+    const apiFive = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=53151408e7026616f38e9e7067d59fa2"
 
 fetch(apiURL)
     .then((response) => response.json())
