@@ -39,7 +39,7 @@ margin-right: 0.01em;
 }
   nav {
     list-style-type: none;
-    background: black;
+    background: rgb(64,224,208);
   }
   
   nav a {
@@ -55,7 +55,7 @@ margin-right: 0.01em;
   }
   
   nav a:hover {
-    color: #3d3838;
+    color: rgb(64,224,208);
     background: white;
   }
   
@@ -80,11 +80,11 @@ margin-right: 0.01em;
   }
   
   nav ul:first-child {
-    background: #3d3838;
+    background: rgb(64,224,208);
     margin: .25rem 2%;
     border: none;
     font-size: 1.1rem;
-    color: rgb(238, 236, 250);
+    color: rgb(0, 0, 0);
     justify-content: center
   }
   
@@ -99,7 +99,7 @@ margin-right: 0.01em;
   }
   
   header {
-    background:rgb(238, 236, 250);
+    background:rgb(199, 224, 222);
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -118,7 +118,7 @@ margin-right: 0.01em;
   
   
   .active {
-    background-color: rgba(190, 188, 188, .2);
+    background-color: rgba(64, 224, 208, 0.904);
     color: #f0f0f0
   }
   
@@ -132,7 +132,7 @@ margin-right: 0.01em;
     margin: auto;
     display: flex;
     justify-content: center;
-    color:black;
+    color:rgb(64,224,208);
     
   }
   
@@ -146,7 +146,7 @@ margin-right: 0.01em;
     position: absolute;
     top: 6px;
     left: 11px;
-    background-color: #312f2f;
+    background-color: rgb(1, 128, 115);
     color: #f0f0f0;
     opacity: .8;
     font-size: 0.7em;
@@ -159,7 +159,7 @@ margin-right: 0.01em;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border-top: #7b7e83;
+    border-top: rgb(64,224,208);
     
 }
 
@@ -229,7 +229,7 @@ h4{
   }
   
   article {
-    background: rgb(238, 236, 250);
+    background: rgb(128, 219, 210);
     padding: 11px;
     overflow: auto
   }
@@ -298,7 +298,7 @@ h4{
   }
   
   form legend {
-    color: #3d3838;
+    color: rgb(64,224,208);
     margin: 0 1rem;
     padding: 0 .6rem
   }
@@ -322,19 +322,19 @@ h4{
     padding: .76rem;
     width: 100%;
     max-width: 20.5rem;
-    background-color: rgba(178, 228, 219, .5)
+    background-color: rgb(64,224,208)
   }
   
   form label.sbs {
     display: block;
     padding: .76rem;
-    color: #3d3838;
+    color: rgb(64,224,208);
     font-size: .85rem
   }
   
   form input.submitBtn {
     border: none;
-    background-color: rgba(175, 203, 255, .5);
+    background-color: rgb(64,224,208);
     color: #3d3838;
     padding: .74rem 1.52rem;
     margin: 0 0 2rem 2%;
@@ -401,8 +401,8 @@ h4{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     margin: 0 auto;
     width: 100%;
-    border: 1px solid #3d3838;
-    background-color: rgb(238, 236, 250);
+    border: 1px solid rgba(64, 224, 208, 0.712);
+    background-color:rgba(64, 224, 208, 0.712);
     border-collapse: collapse;
     display: none
  
@@ -419,7 +419,7 @@ h4{
 .forecast-days div {
     
     grid-row: 2/3;
-    background-color: rgb(238, 236, 250);
+    background-color: rgba(64, 224, 208, 0.712);
     padding: 10px;
     margin:  10px;
     text-align: center;
@@ -472,7 +472,7 @@ h4{
     }
   
     .contact {
-      background: #f0f0f0;
+      background: rgba(186, 216, 213, 0.712);
       padding: 11px;
       display: grid;
       grid-template-areas: "left right";
@@ -557,7 +557,7 @@ h4{
   
     table {
       border-collapse: collapse;
-      border: 1px solid #3d3838;
+      border: 1px solid #000000;
     }
   
     table,
@@ -572,7 +572,7 @@ h4{
     }
   
     .gallerygrid figure:hover {
-      box-shadow: 0 0 22px #3d3838;
+      box-shadow: 0 0 22px #ffffff;
     }
     h2{
       display: grid;
