@@ -2,7 +2,6 @@ const apiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPI
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
-        console.log(jsObject.list[0]);
 
         document.getElementById('current').textContent = jsObject.list[0].weather[0].main;
 
@@ -24,7 +23,6 @@ fetch(apiURL)
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsonObject) => {
-        console.log(jsonObject);
 
         for (let i = 1; i < 6; i++){
             fore = document.textContent = jsonObject.list[i].main.temp;
