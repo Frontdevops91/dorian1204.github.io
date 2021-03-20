@@ -6,7 +6,7 @@
 body {
     font-family:  sans-serif;
     font-size: 15px;
-    color: black;
+    color: rgb(0, 0, 0);
   }
   
   h1,
@@ -24,14 +24,14 @@ body {
   }
   nav {
     list-style-type: none;
-    background: black;
+    background: rgb(64,224,208);
   }
   
   nav a {
     display: flex;
     text-decoration: none;
     text-align: center;
-    color: white;
+    color: rgb(64,224,208);
     padding: 9px
   }
   
@@ -40,7 +40,7 @@ body {
   }
   
   nav a:hover {
-    color: #3d3838;
+    color: rgb(0, 0, 0);
     background: white;
   }
   
@@ -65,7 +65,7 @@ body {
   }
   
   nav ul:first-child {
-    background: #3d3838;
+    background: rgb(64,224,208);
     margin: .25rem 2%;
     border: none;
     font-size: 1.1rem;
@@ -84,7 +84,7 @@ body {
   }
   
   header {
-    background:rgb(238, 236, 250);
+    background:rgb(1, 128, 115);
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -104,7 +104,7 @@ body {
   }
   
   .active {
-    background-color: rgba(190, 188, 188, .2);
+    background-color: rgba(64, 224, 208, 0.904);
     color: #f0f0f0
   }
   
@@ -126,6 +126,7 @@ body {
     display: flex;
     justify-content: center;
     
+    
   }
   .contactinfo {
     justify-content: center;
@@ -142,7 +143,7 @@ body {
     position: absolute;
     top: 6px;
     left: 11px;
-    background: #3d3838;
+    background: rgb(1, 128, 115);
     color: #f0f0f0;
     opacity: .8;
     font-size: 0.7em;
@@ -166,11 +167,11 @@ body {
   }
   
   .fiveday table td {
-    background: white;
+    background: rgb(1, 128, 115);
   }
   
   .fiveday table th {
-    background: #ebf0fa;
+    background: rgb(1, 128, 115);
   }
   
   .fiveday table td,
@@ -188,7 +189,7 @@ body {
   }
   
   article {
-    background: rgb(238, 236, 250);
+    background: rgb(1, 128, 115);
     padding: 11px;
     overflow: auto
   }
@@ -200,7 +201,7 @@ body {
   
   .calendar,
   .contact {
-    background:white;
+    background:rgb(1, 128, 115);
     padding: 11px
   }
   
@@ -220,13 +221,12 @@ body {
   
   form fieldset {
     margin: 2.1rem 0;
-    border: 2px solid rgb(238, 236, 250);
+    border: 2px solid rgb(1, 128, 115);
     padding: .5rem 2%
   }
   
   form legend {
-    color: #3d3838;
-    margin: 0 1rem;
+    color: rgb(1, 128, 115);
     padding: 0 .6rem
   }
   
@@ -234,7 +234,7 @@ body {
     display: block;
     padding-top: 0.9rem;
     font-size: .7rem;
-    color: #3d3838;
+    color:rgb(1, 128, 115);;
   }
   
   form label.sbs,
@@ -249,20 +249,20 @@ body {
     padding: .76rem;
     width: 100%;
     max-width: 20.5rem;
-    background-color: rgb(238, 236, 250);
+    background-color: rgb(216, 252, 249);
   }
   
   form label.sbs {
     display: block;
     padding: .76rem;
-    color: #3d3838;
+    color: #030303;
     font-size: .85rem
   }
   
   form input.submitBtn {
     border: none;
-    background-color: rgb(238, 236, 250);
-    color: #3d3838;
+    background-color: rgb(105, 243, 229);
+    color: #000000;
     padding: .74rem 1.52rem;
     margin: 0 0 2rem 2%;
     width: 96%;

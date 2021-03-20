@@ -55,7 +55,7 @@ margin-right: 0.01em;
   }
   
   nav a:hover {
-    color: rgb(64,224,208);
+    color: rgb(0, 0, 0);
     background: white;
   }
   
@@ -99,7 +99,7 @@ margin-right: 0.01em;
   }
   
   header {
-    background:rgb(199, 224, 222);
+    background:rgb(1, 128, 115);
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -132,7 +132,7 @@ margin-right: 0.01em;
     margin: auto;
     display: flex;
     justify-content: center;
-    color:rgb(64,224,208);
+    color:rgb(0, 0, 0);
     
   }
   
