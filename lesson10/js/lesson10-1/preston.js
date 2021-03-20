@@ -9,12 +9,12 @@ fetch(apiURL)
 
         document.getElementById('humidity').textContent = jsObject.list[0].main.humidity;
 
-        document.getElementById('windspeed').textContent = (jsObject.list[0].wind.speed).toFixed(0);    
-        })
+        document.getElementById('windspeed').textContent = (jsObject.list[0].wind.speed).toFixed(0);  
 
-    .catch(function(error){
-        alert("Sorry, the data for the weather summary is not available right now.");
+        document.getElementById('windchill').textContent = (0.0817 * (3.71*(Math.pow(windspeed, 0.5))+ 5.81 - 0.25 * windspeed)*(temp-91.4)+ 91.4);  
     })
+//*WindChill*//
+     
 
 
 
@@ -38,6 +38,8 @@ fetch(apiURL)
         }}    
     )
 
+
+    
 
     
     
