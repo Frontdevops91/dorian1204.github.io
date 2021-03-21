@@ -11,9 +11,11 @@ fetch(apiURL)
 
         document.getElementById('windspeed').textContent = (jsObject.list[0].wind.speed).toFixed(0);  
 
-        document.getElementById('windchill').textContent = (0.0817 * (3.71*(Math.pow(windspeed, 0.5))+ 5.81 - 0.25 * windspeed)*(temp-91.4)+ 91.4);  
+        document.getElementById('windchill').textContent = ((jsObject.list[0].main.temp_max)*(9/5) - 459.67)+(jsObject.list[0].main.humidity/100)-(jsObject.list[0].wind.speed).toFixed(0);
+        
+        document.getElementById('windchill').textContent = Math.round(0.0817 * (3.71*(Math.pow(jsObject.list[0].wind.speed, 0.5))+ 5.81 - 0.25 * jsObject.list[0].wind.speed)*(((jsObject.list[0].main.temp_max)*(9/5) - 459.67)-91.4)+ 83.4);  
     })
-//*WindChill*//
+//WindChill//
      
 
 
