@@ -59,26 +59,23 @@
           </datalist></label>
       
           <div>
-            <label class="stormseverity">
+        <label class="stormseverity">
                 Storm Severity : <span id="ratingvalue">5</span>
                 <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
                     oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-    <datalist id="tickmarks">
-        <option value="0"></option>
-        <option value="1"></option>
-        <option value="2"></option>
-        <option value="3"></option>
-        <option value="4"></option>
-        <option value="5"></option>
-        <option value="6"></option>
-        <option value="7"></option>
-        <option value="8"></option>
-        <option value="9"></option>
-        <option value="10"></option>
-    </datalist>
-    </div>
-</label>
-
+                  <datalist id="tickmarks">
+                      <option value="0"></option>
+                      <option value="1"></option>
+                      <option value="2"></option>
+                      <option value="3"></option>
+                      <option value="4"></option>
+                      <option value="5"></option>
+                      <option value="6"></option>
+                      <option value="7"></option>
+                      <option value="8"></option>
+                      <option value="9"></option>
+                      <option value="10"></option>
+                  </datalist></label>
     
     <div>
         <label class="top">Storm Region:
@@ -97,8 +94,6 @@
       </fieldset>
       <fieldset>
         <legend class="top comments">Comments</legend>
-        
-        
         <label class="item">Storm Comments <textarea name="comments" rows="8"
           cols="50"></textarea></label>
       </fieldset>
