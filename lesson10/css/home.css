@@ -434,9 +434,9 @@ main {
       }
     
   
-    .map {
-      grid-area: right;
-      display:block;
+      .map {
+        grid-area: right
+      }
       
     }
   }
@@ -497,9 +497,12 @@ margin-right: 0.01em;
    
       font-size: 1em;
     }
+    .contactinfo {
+      grid-area: block;
+    }
     
     .map {
-      grid-area: right;
+      grid-area:right;
       display:block;
     }
 
